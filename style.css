@@ -1,0 +1,48 @@
+body{
+    overscroll-behavior: none;
+}
+
+.light{
+    color: black;
+    background-color: white;
+}
+.dark{
+    color: white;
+    background-color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.nav h2:active{
+    scale: 0.8;
+}
+
+#leftBtn:active{
+    scale: 0.8;
+}
+#rightBtn:active{
+    scale: 0.8;
+}
+
+.btn:active{
+    scale: 0.8;
+}
+
+
+
+
+
+
+@keyframes move {
+    from{
+        transform: translateX(0);
+
+    }
+    to{
+        transform: translateX(calc(-100% - 24px));
+
+    }
+}
